@@ -5,6 +5,11 @@ const ytdl = require("ytdl-core");
 const dotenv = require("dotenv").config();
 require("./server.js");
 
+PREFIX=b
+BOT_TOKEN=NzI2NDUxNzY0MzE2MDc4MTYy.Xvde_g.vCy4ooJL0ICaHIAox6IKzyE95hA
+YTAPI_KEY=AIzaSyBRSkHjYymiM6-usMrsIboAImF64xuFLZY
+PROJECT_DOMAIN=pepo444
+
 const TOKEN = process.env.BOT_TOKEN;
 const PREFIX = process.env.PREFIX;
 const GOOGLE_API_KEY = process.env.YTAPI_KEY;
